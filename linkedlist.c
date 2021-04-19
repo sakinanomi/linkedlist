@@ -172,7 +172,9 @@ int main()
      int a;
     char ch='y';
     do{
-             printf("Please enter your choice\n1:To insert in the beginning \n2:To insert at the end\n3:To insert after any element\n4:To display\n5:To remove from the beginning\n6:To remove from the end\n7:To remove after specified position\n8:To search element\n9:To sort\n10:To display\n11:To exit\n");
+             printf("Please enter your choice\n1:To insert in the beginning \n2:To insert at the end\n3:To insert after any element\n");
+             printf("4:To display\n5:To remove from the beginning\n6:To remove from the end\n7:To remove after specified position\n");
+             printf("8:To search element\n9:To sort\n10:To display\n11:To exit\n");
 
             scanf("%d",&a);
             switch(a)
